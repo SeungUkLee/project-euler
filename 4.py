@@ -8,6 +8,8 @@ from itertools import combinations
 
 
 def is_palindrome(num_str: str) -> bool:
+    # 문자열을 뒤집는 방법은 슬라이스 말고 다른 방법도 있다.
+    # ''.join(list(reversed(a)))
     return num_str[::-1] == num_str
 
 
